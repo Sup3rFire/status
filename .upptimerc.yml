@@ -6,6 +6,9 @@ sites:
   - name: Personal Website
     url: https://superfi.re
     maxResponseTime: 1000
+    expectedStatusCodes:
+      - 200
+      - 503
 
 status-website:
   theme: night
